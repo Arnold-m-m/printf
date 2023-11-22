@@ -1,9 +1,11 @@
-#ifndef HOLBERTON_H
-#define HOLBERTON_H
+#ifndef MAIN_H
+#define MAIN_H
+
 
 #include <stdarg.h>
 #include <stddef.h>
 #include <stdlib.h>
+#include <unistd.h>
 
 /**
  * struct structprint - structure containing
@@ -33,4 +35,5 @@ int printhex(char *format, va_list);
 int printHEX(char *format, va_list);
 int printocta(char *format, va_list);
 int print_unsign(char *format, va_list);
+
 #endif
